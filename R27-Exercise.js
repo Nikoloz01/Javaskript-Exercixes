@@ -12,6 +12,7 @@ console.log(userCanComment)
 let userIsLoggedIn = true;
 let userIsBlocked = false;
 const userCanPost = !userIsBlocked && userIsLoggedIn;
+
 console.log(userCanPost)
 
 // -------------------------------------------------------------------
